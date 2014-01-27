@@ -2,7 +2,7 @@
  error_reporting(E_ALL);
 
 ?>
-<?php require_once($_SERVER['DOCUMENT_ROOT']."/psed/conf/conf.php"); ?>
+<?php require_once("../conf/conf.php"); ?>
 <?php
 if (!function_exists("GetSQLValueString")) {
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
