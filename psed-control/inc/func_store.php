@@ -1,7 +1,7 @@
 <?php
 //include('restric_access.php');
 defined('correctaccess') or die();
-$imgdest="image/stores/";
+$imgdest="image/news/";
 function make_thumb($src,$dest){
 		include("resize-class.php");
 		// *** 1) Initialise / load image
