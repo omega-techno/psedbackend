@@ -148,7 +148,7 @@ function getStoreList(){
 			$i=($_GET['page']-1)*10;
 		}
 	}
-	echo "<div class='item_list_outer'><table cellspacing='0' class='item_list'><tr><th class='id'>id</th><th class='image'>Image</th><th class='name'>Store Name</th><th class='phone'>Phone Number</th><th class='loc'>Location</th><th class='mode'>Mode</th></tr>";
+	echo "<div class='item_list_outer'><table cellspacing='0' class='item_list'><tr><th class='id'>id</th><th class='image'>Image</th><th class='name'>Title</th><th class='phone'>Phone Number</th><th class='loc'>Location</th><th class='mode'>Mode</th></tr>";
 	$rowcount=mysql_num_rows($result);
 	while($row=mysql_fetch_array($result)){
 		$i+=1;
