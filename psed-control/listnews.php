@@ -10,14 +10,7 @@ if(!isset($_SESSION)) {
 }
 
 if(isset($_POST['submit'])){
-	//if(!isset($_GET['id'])){
-//		if(addImage()){
-//			$status="<font style='float:right;padding-right:20px;' color='green'>Image added! </font><img style='float:right' src='img/tick.png'>";	
-//		}
-//		else{
-//			$satus="fail to save";
-//		}
-//	}else{
+ 
 	if(isset($_GET['id'])){
 		if(!empty($_GET['id'])){
 			if(addImage()){
@@ -25,37 +18,8 @@ if(isset($_POST['submit'])){
 			}
 		}
 	}
-	//}
-}
-
-//$formaction="";
-//if(isset($_GET['id'])){
-//	if(!empty($_GET['id'])){
-//		$formaction="?id=".$_GET['id'];
-//		getAllFields($_GET['id']);
-//	}
-//	
-//}
-//else{
-//		$field=array("","","","","");
-//	}
-//function getAllFields($id){
-//	include('../conf/conf.php');
-//	global $field;
-//	$sql="SELECT * FROM stores WHERE id={$id};";
-//	$result=mysql_query($sql);
-//	while($row=mysql_fetch_array($result)){
-//		$field=array(
-//			htmlspecialchars($row['store_name']),
-//			htmlspecialchars($row['tel']),
-//			htmlspecialchars($row['location']),
-//			htmlspecialchars($row['business_profile']),
-//			htmlspecialchars($row['business_service']));
-//	}
-//	
-//}
-//	
-//	
+ 
+} 	
 getContent();
 	$formaction="";
 if(isset($_GET['id'])){
