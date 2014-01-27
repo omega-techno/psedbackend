@@ -62,10 +62,10 @@ function getAllFields($id){
 <form action="editstore.php<?php echo $formaction;?>" method="post" enctype="multipart/form-data">
 <table class="table_input">
 	<tr>
-    	<td>Name:</td><td><input type="text" required name="name" value="<?php  echo $field[0]?>"></td>
+            <td>News Title:</td><td><textarea required name="title" value="<?php  echo $field[0]?>"></td>
     </tr>
     <tr>
-		<td class="label">Store Image: </td><td><input type="file" name="file" id="file"/></td>
+		<td class="label">Image: </td><td><input type="file" name="file" id="file"/></td>
 	</tr><tr>
 		<td class="label">Store Name: </td><td><input type="text" value="<?php echo $field[1];?>" required name="store_name" /></td>
 	</tr><tr>
