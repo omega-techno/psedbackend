@@ -67,7 +67,7 @@ function getAllFields($id){
     <tr>
 		<td class="label">Image: </td><td><input type="file" name="file" id="file"/></td>
 	</tr><tr>
-		<td class="label">Store Name: </td><td><input type="text" value="<?php echo $field[1];?>" required name="store_name" /></td>
+		<td class="label">Type</td><td><input type="text" value="<?php echo $field[1];?>" required name="store_name" /></td>
 	</tr><tr>
 		<td>Phone Number: </td><td><input type="text" value="<?php echo $field[2];?>" required name="tel" /></td>
 	</tr><tr>
