@@ -2,7 +2,7 @@
 include('../conf/conf.php');
 define('correctaccess', TRUE);
 include('inc/func_store.php');
-$page_title="Store Manager";
+$page_title="News Manager";
 $status="";
 
 if(!isset($_SESSION)) {
